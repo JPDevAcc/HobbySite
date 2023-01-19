@@ -1,0 +1,123 @@
+/* Styling on <body> to set background-image */
+body {
+	background:linear-gradient(180deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.91) 50%, rgba(0, 0, 16, 0.85)), 
+		url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+/* Classes for custom header and navbar styling */
+.my-header {
+	background-color: #8080A016;
+	height: 4em;
+	border-bottom: 1px solid #333 ;
+}
+.my-header h1 {
+	color: white ;
+	filter: drop-shadow(0 0 0.2rem black) drop-shadow(0 0 0.5rem #22fa) ;
+	font-size: min(max(4.9vw, 19px), 40px);
+	text-align: center;
+}
+.my-navbar {
+	font-family: 'Roboto', sans-serif ;
+	background-color: #202030 ;
+}
+
+/* Container for body-content (between header and footer) */
+.my-container {
+	 width: 95%;
+	 margin: auto ;
+	 min-height: max(100vh, 800px); /* Ensure footer is far enough down if the rest of the content takes up insufficient vertical space */
+}
+
+/* Panel overlay with partial transparency to hold body-content */
+.my-panel .my-title {
+	background-color: #8888ff20;
+	padding: 6px ;
+	text-align: center ;
+	color: white ;
+}
+.my-panel .my-title * {
+	font-size: 150% ;
+	margin: 0; 
+	font-family: 'Roboto', sans-serif ;
+	letter-spacing: 0.09em;
+}
+.my-panel .my-panel-contents {
+	background-color: #22228820 ;
+	color: #eee ;
+	padding: 12px ;
+	text-align: justify ;
+}
+
+.my-panel .my-panel-contents .my-card:not(:first-of-type) {
+	margin-top: 2em ;
+}
+
+/* Class for footer styling */
+.my-footer {
+	margin-top: 2em ;
+	padding: 0.5em;
+	color: #eee ;
+	background-color: #000000A0;
+	border-top: 1px solid #111 ;
+	font-family: 'Roboto', sans-serif ;
+}
+
+/* Classes for main content captioned images */
+.my-image-container {
+	margin: 2em auto ;
+	width: 90% ;
+	outline: 2px solid white ;
+	background-color: black ;
+	text-align: center; 
+}
+.my-image-container figcaption {
+	padding: 4px ;
+	color: white ;
+	font-family: 'Roboto', sans-serif ;
+	background-color: #006 ;
+}
+
+/* Class for custom styling to be used in conjuction with Bootstrap 'card' class */
+.my-card {
+	background-color: #009 ;
+	max-width: 320px ;
+	margin: auto ;
+	opacity: 83% ;
+	color: white; 
+	text-align: center ; /* Also centers <img> elements */
+}
+.my-card .card-text {
+	font-family: 'Roboto', sans-serif ;
+}
+.my-card:not(:hover) {
+	transition: opacity 0.4s ;
+}
+.my-card:hover {
+	opacity: 100% ;
+}
+
+.my-blockquote {
+	border: 2px solid #ffffff40 ;
+	border-radius: 16px ;
+	padding: 4px ;
+}
+.my-blockquote p {
+	color: #eee ;
+	font-size: max(1vw, 16px) ;
+}
+
+/* Generic utility classes */
+.width-full {
+	width: 100% ;
+}
+.width-75pc {
+	width: 75% ;
+}
+.my-bg-black {
+	background-color: black ;
+}
+.my-bg-white {
+	background-color: white ;
+}
