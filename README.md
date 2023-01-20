@@ -23,3 +23,6 @@ A simple contact form page is also included, although it currently takes the use
 
 Notes:
 Images (apart from the background) are currently fetched from external resources due to copyright concerns in some cases - all these images are available as of writing (2023-01-20)
+
+Known issues:
+YouTube embeds don't have poster image scaled correctly and control bar sometimes flickers (noted on Firefox)
