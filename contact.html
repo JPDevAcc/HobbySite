@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James' Retro-Computing Site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- HEADER / NAVBAR -->
+	<header>
+		<div class="d-flex justify-content-center align-items-center my-header">
+			<h1>My Retro-Computing and Emulation Site</h1>
+		</div>
+
+		<nav class="navbar navbar-expand-sm navbar-dark my-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="computing_history.html">Computing History</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="retro_gaming.html">Retro Gaming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="emulation.html">Emulation</a>
+						</li>
+					</ul>	
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" href="contact.html">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- BODY CONTENT -->
+	<div class="my-container">
+		<div class="row g-3 mt-2 justify-content-between">
+			<!-- LEFT PANEL -->
+			<div class="col-md-3 col-lg-3 d-none d-md-block">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>Site Menu</h2>
+					</div>
+					<div class="my-panel-contents">
+						<!-- HISTORICAL COMPUTING -->
+						<div class="card my-card">
+							<a class="nav-link" href="computing_history.html">
+								<h5 class="card-title text-center">Computing History</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cray_1_IMG_9126.jpg/1280px-Cray_1_IMG_9126.jpg"
+									class="card-img-top"
+									alt="Cray-1 SuperComputer (1976)"
+									title="Cray-1 SuperComputer (1976)">
+								<div class="card-body">
+									<p class="card-text">Learn about some historical computers and how the industry and the technology evolved over the past five decades</p>
+								</div>
+							</a>
+						</div>
+						<!-- RETRO GAMING -->
+						<div class="card my-card">
+							<a class="nav-link" href="retro_gaming.html">
+								<h5 class="card-title text-center">Retro Gaming</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png"
+									class="card-img-top"
+									alt="Screenshot of Pacman (Namco, 1980)"
+									title="Pacman (Namco, 1980)">
+								<div class="card-body">
+									<p class="card-text">Put down the latest cutting edge software titles for a moment and delve into the realm of retro gaming!</p>
+								</div>
+							</a>
+						</div>
+						<!-- SYSTEM EMULATION -->
+						<div class="card my-card">
+							<a class="nav-link" href="emulation.html">
+								<h5 class="card-title text-center">Emulation</h5>
+								<img src="https://images.unsplash.com/photo-1569721983011-6c8d6732d384?ixlib=rb-4.0.3&dl=muha-ajjan-uOOBQhUs1AA-unsplash.jpg&w=640&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+									class="card-img-top"
+									alt="Android tablet emulating a Playstation Portable (PSP)"
+									title="Android tablet emulating a Playstation Portable (PSP)">
+								<div class="card-body">
+									<p class="card-text">Find out what's possible using system emulators, and a bit about how they trick software into thinking it's running on completely different hardware</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+
+			<!-- MID PANEL -->
+			<div class="col-md-9">
+				<main class="my-panel">
+					<div class="my-title">
+						<h2>- Contact Me -</h2>
+					</div>
+					<div class="my-panel-contents">
+						<form action="contact_confirm_send.html" method="post">
+							<div class="mb-3">
+								<label for="name" class="form-label">Your name</label>
+								<input class="form-control" id="name" required>
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label">Your email address</label>
+								<input type="email" class="form-control" id="email" required>
+							</div>
+							<div class="mb-3">
+								<label for="subject" class="form-label">Subject</label>
+								<input class="form-control" id="subject" required>
+							</div>
+							<div class="mb-3">
+								<label for="message" class="form-label">Message</label>
+								<textarea class="form-control" id="message" rows="5" required></textarea>
+							</div>
+
+							<div class="text-center">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</form>
+					</div>
+				</main>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="my-footer">
+		Background courtesy of <a href="https://www.pexels.com/@felixmittermeier/" target="_blank">Felix Mittermeier</a>
+		<hr>
+		<div class="d-flex justify-content-between">
+			<span>Site Design Copyright &#169; James Percival 2023</span>
+			<span class="text-end">Last Updated 2023-01-20</span>
+		</div>
+	</footer>
+</body>
+</html>
