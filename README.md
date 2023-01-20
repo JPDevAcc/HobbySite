@@ -1,4 +1,5 @@
 Project brief: "Create a personal website using HTML and CSS"
+
 Project scope: Introductory homepage + minimum 3 other pages, complete with CSS styling
 
 Main objectives:
@@ -19,3 +20,6 @@ A mix of custom styles and Bootstrap components is used. In the case of the latt
 A simple [ title -> navbar -> 3 column -> footer ] layout is used on all the main pages, where the 'left' column contains links to the site-sections and the 'right' column contains links to external resources relevant to the topic of the current page. In order to have the main content right after the navbar on mobile devices where the columns switch to vertical stacking, the site-sections column is hidden on viewport widths smaller than the mobile breakpoint. Site sections can then still be accessed via the hamburger drop-down menu.
 
 A simple contact form page is also included, although it currently takes the user to a dummy confirmation page, as there is no server to submit the request to.
+
+Notes:
+Images (apart from the background) are currently fetched from external resources due to copyright concerns in some cases - all these images are available as of writing (2023-01-20)
