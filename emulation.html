@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James' Retro-Computing Site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- HEADER / NAVBAR -->
+	<header>
+		<div class="d-flex justify-content-center align-items-center my-header">
+			<h1>My Retro-Computing and Emulation Site</h1>
+		</div>
+
+		<nav class="navbar navbar-expand-sm navbar-dark my-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="computing_history.html">Computing History</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="retro_gaming.html">Retro Gaming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="emulation.html">Emulation</a>
+						</li>
+					</ul>	
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- BODY CONTENT -->
+	<div class="my-container">
+		<div class="row g-3 mt-2 justify-content-between">
+			<!-- LEFT PANEL -->
+			<div class="col-md-3 col-lg-3 d-none d-md-block">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>Site Menu</h2>
+					</div>
+					<div class="my-panel-contents">
+						<!-- HISTORICAL COMPUTING -->
+						<div class="card my-card">
+							<a class="nav-link" href="computing_history.html">
+								<h5 class="card-title text-center">Computing History</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cray_1_IMG_9126.jpg/1280px-Cray_1_IMG_9126.jpg"
+									class="card-img-top"
+									alt="Cray-1 SuperComputer (1976)"
+									title="Cray-1 SuperComputer (1976)">
+								<div class="card-body">
+									<p class="card-text">Learn about some historical computers and how the industry and the technology evolved over the past five decades</p>
+								</div>
+							</a>
+						</div>
+						<!-- RETRO GAMING -->
+						<div class="card my-card">
+							<a class="nav-link" href="retro_gaming.html">
+								<h5 class="card-title text-center">Retro Gaming</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png"
+									class="card-img-top"
+									alt="Screenshot of Pacman (Namco, 1980)"
+									title="Pacman (Namco, 1980)">
+								<div class="card-body">
+									<p class="card-text">Put down the latest cutting edge software titles for a moment and delve into the realm of retro gaming!</p>
+								</div>
+							</a>
+						</div>
+						<!-- SYSTEM EMULATION -->
+						<div class="card my-card">
+							<a class="nav-link" href="emulation.html">
+								<h5 class="card-title text-center">Emulation</h5>
+								<img src="https://images.unsplash.com/photo-1569721983011-6c8d6732d384?ixlib=rb-4.0.3&dl=muha-ajjan-uOOBQhUs1AA-unsplash.jpg&w=640&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+									class="card-img-top"
+									alt="Android tablet emulating a Playstation Portable (PSP)"
+									title="Android tablet emulating a Playstation Portable (PSP)">
+								<div class="card-body">
+									<p class="card-text">Find out what's possible using system emulators, and a bit about how they trick software into thinking it's running on completely different hardware</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+
+			<!-- MID PANEL -->
+			<div class="col-md-6">
+				<main class="my-panel">
+					<div class="my-title">
+						<h2>- Emulation -</h2>
+					</div>
+					<div class="my-panel-contents">
+						<p>
+							I always found emulators fascinating. It seemed impressive to be able to effectively turn one kind of computer into another or into a games console.
+							Of course there are limitations, but in most cases you can get an experience that is pretty faithful to the real thing.
+						</p>
+						<p>
+							In theory it's possible to emulate any computing device on any other computing device, 
+							so long as the system running the emulator (the 'host') has slightly more memory than the one to be emulated.
+							This of course doesn't mean that it will run in real-time however.
+							In practice, the host system has to be several times faster than the emulated system due to often-significant overheads in the process.
+						</p>
+						<p>
+							The first console emulators for PCs were developed in the mid-to-late 90s, with an emphasis on Nintendo systems, including the 
+							<a href="https://en.wikipedia.org/wiki/Nintendo_Entertainment_System" target="_blank">Nintendo Entertainment System (NES)</a>, 
+							released in 1985. Initially, however, these emulators had many problems with glitches and poor accuracy, 
+							largely due to the fact that the exact inner workings of the systems they were trying to emulate were unknown
+							to the emulator developers as they had no access to any official documentation and instead had to make educated guesses 
+							through a process of 'reverse engineering'.
+							Check out the video below for a bit more on this early history.
+						</p>
+						<div class="my-video-container">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/Yo54FZJkIMQ"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+
+						<p>
+							As time went by and computers became more powerful, emulation of these early consoles matured, with an increasing emphasis on accuracy over speed. 
+							At the same time, it became possible to emulate newer fourth generation systems such as the 
+							<a href="https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System" target="_blank">Super Nintendo System (SNES)</a>
+						</p>
+
+						<figure class="my-image-container">
+							<img src="https://topbestalternative.com/wp-content/uploads/2020/05/snes9x-file-options.png"
+								class="width-60pc"
+								alt="Screenshot of the Snes9X Super Nintendo emulator running Super Mario World on a PC">
+							<figcaption>The Snes9X Super Nintendo emulator running Super Mario World on a PC</figcaption>
+						</figure>
+
+						<p>
+							Later still, it became possible to emulate even fifth generation consoles such as the
+							<a href="https://en.wikipedia.org/wiki/PlayStation_(console)" target="_blank">Playstation</a> and 
+							<a href="https://en.wikipedia.org/wiki/PlayStation_(console)" target="_blank">Nintendo 64</a>.
+							In the case of the N64, this came as a surprise to many people as the system was believed to be too advanced to emulate on the PCs of the time, 
+							but one emulator had a clever trick up its sleeve, as explained by the video below.
+						</p>
+
+						<div class="my-video-container">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/2NF5sU_n0uk"
+								title="YouTube video player" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+							</iframe>
+						</div>
+
+						<p>
+							As of writing, experimental emulators exist for at least the seventh generation of games consoles, covering systems released in the mid 2000s.
+							While console developers would no doubt prefer to keep firm control of their console's ecosystems, it seems that whenever a new system is released, emulator writers
+							rise to the challenge.
+						</p>
+
+						<p>
+							Aside from consoles and legacy home-computers, it's also possible to emulate mobile devices, especially those running Google's open-source "Android" operating system.
+							Like console emulators, some of these such as <a href="https://www.bluestacks.com/" target="_blank">BlueStacks</a> are geared towards making Android games available on PCs, 
+							but they can also be used in a more general-purpose way. These emulators in particular offer a useful way of testing mobile software without having to run it on a real device.
+							Using emulators for testing or development like this is common practice, and often there are official emulators from the likes of Google and Apple for exactly that purpose. 
+						</p>
+					</div>
+				</main>
+			</div>
+
+			<!-- RIGHT PANEL -->
+			<div class="col-md-3 col-lg-3">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>External Resources</h2>
+					</div>
+					<div class="my-panel-contents">
+						<div class="card my-card">
+							<a class="nav-link" href="https://en.wikipedia.org/wiki/Emulation" target="_blank">
+								<h5 class="card-title text-center">Wikipedia's main article on emulation</h5>
+								<div class="my-bg-black">
+									<img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg"
+										class="card-img-top width-60pc"
+										alt="Link to the main Wikipedia article on Emulation">
+								</div>
+								<div class="card-body">
+									<p class="card-text">An in-depth article on emulation, covering a lot of technical details</p>
+								</div>
+							</a>
+						</div>
+						<div class="card my-card">
+							<a class="nav-link" href="https://en.wikipedia.org/wiki/Video_game_console_emulator" target="_blank">
+								<h5 class="card-title text-center">Wikipedia console emulators article</h5>
+								<div class="my-bg-black">
+									<img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg"
+										class="card-img-top width-60pc"
+										alt="Link to the Wikipedia article on games-console emulators">
+								</div>
+								<div class="card-body">
+									<p class="card-text">An article specific to games-console emulators, covering methods, uses, and potential legal issues</p>
+								</div>
+							</a>
+						</div>
+						<div class="card my-card">
+							<a class="nav-link" href="https://www.retroarch.com/" target="_blank">
+								<h5 class="card-title text-center">RetroArch emulator front-end</h5>
+								<div class="my-bg-black">
+									<img src="https://www.retroarch.com/images/logo.png"
+										class="card-img-top width-60pc"
+										alt="Link to the RetroArch emulator front-end homepage">
+								</div>
+								<div class="card-body">
+									<p class="card-text">RetroArch is a popular emulator front-end that allows a user to organise their games collection and provides an integrated way to play titles under different emulator 'cores'</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+
+<!-- FOOTER -->
+	<footer class="my-footer">
+		Background courtesy of <a href="https://www.pexels.com/@felixmittermeier/" target="_blank">Felix Mittermeier</a>
+		<hr>
+		<div class="d-flex justify-content-between">
+			<span>Site Design Copyright &#169; James Percival 2023</span>
+			<span class="text-end">Last Updated 2023-01-20</span>
+		</div>
+	</footer>
+</body>
+</html>
