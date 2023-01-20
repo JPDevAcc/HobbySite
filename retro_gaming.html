@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James' Retro-Computing Site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- HEADER / NAVBAR -->
+	<header>
+		<div class="d-flex justify-content-center align-items-center my-header">
+			<h1>My Retro-Computing and Emulation Site</h1>
+		</div>
+
+		<nav class="navbar navbar-expand-sm navbar-dark my-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="computing_history.html">Computing History</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="retro_gaming.html">Retro Gaming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="emulation.html">Emulation</a>
+						</li>
+					</ul>	
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- BODY CONTENT -->
+	<div class="my-container">
+		<div class="row g-3 mt-2 justify-content-between">
+			<!-- LEFT PANEL -->
+			<div class="col-md-3 col-lg-3 d-none d-md-block">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>Site Menu</h2>
+					</div>
+					<div class="my-panel-contents">
+						<!-- HISTORICAL COMPUTING -->
+						<div class="card my-card">
+							<a class="nav-link" href="computing_history.html">
+								<h5 class="card-title text-center">Computing History</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cray_1_IMG_9126.jpg/1280px-Cray_1_IMG_9126.jpg"
+									class="card-img-top"
+									alt="Cray-1 SuperComputer (1976)"
+									title="Cray-1 SuperComputer (1976)">
+								<div class="card-body">
+									<p class="card-text">Learn about some historical computers and how the industry and the technology evolved over the past five decades</p>
+								</div>
+							</a>
+						</div>
+						<!-- RETRO GAMING -->
+						<div class="card my-card">
+							<a class="nav-link" href="retro_gaming.html">
+								<h5 class="card-title text-center">Retro Gaming</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png"
+									class="card-img-top"
+									alt="Screenshot of Pacman (Namco, 1980)"
+									title="Pacman (Namco, 1980)">
+								<div class="card-body">
+									<p class="card-text">Put down the latest cutting edge software titles for a moment and delve into the realm of retro gaming!</p>
+								</div>
+							</a>
+						</div>
+						<!-- SYSTEM EMULATION -->
+						<div class="card my-card">
+							<a class="nav-link" href="emulation.html">
+								<h5 class="card-title text-center">Emulation</h5>
+								<img src="https://images.unsplash.com/photo-1569721983011-6c8d6732d384?ixlib=rb-4.0.3&dl=muha-ajjan-uOOBQhUs1AA-unsplash.jpg&w=640&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+									class="card-img-top"
+									alt="Android tablet emulating a Playstation Portable (PSP)"
+									title="Android tablet emulating a Playstation Portable (PSP)">
+								<div class="card-body">
+									<p class="card-text">Find out what's possible using system emulators, and a bit about how they trick software into thinking it's running on completely different hardware</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+
+			<!-- MID PANEL -->
+			<div class="col-md-6">
+				<main class="my-panel">
+					<div class="my-title">
+						<h2>- Retro Gaming -</h2>
+					</div>
+					<div class="my-panel-contents">
+						<p>
+							Modern video games are bigger than ever before, with shiny graphics, realistic physics, high-quality sound, and an amazing overall level of detail
+							all brought about through the efforts of development teams much larger than those of the past.
+							In turn, these games are powered by computing hardware that is in some respects 1,000 times more capable than that which existed twenty years ago.
+							Graphics hardware in particular has come along in leaps and bounds, with PC graphics cards now on the market that are bigger than an average games console, 
+							all for the purpose of handling the ever-increasing demands of detailed geometry and complex shading demanded of them by the latest games.
+						</p>
+
+						<figure class="my-image-container">
+							<img src="https://www.gtplanet.net/wp-content/uploads/2021/12/03_Screenshot_3840x2160_Legal-800x450.jpg"
+								class="width-full"
+								alt="Screenshot of the UE5 tech demo, 'The Matrix Awakens'"
+								title="'The Matrix Awakens' Playable Unreal-Engine 5 Tech Demo (Epic Games, 2021)">
+							<figcaption>Games increasingly have near-photorealistic visuals like in this Unreal Engine 5 tech-demo, but are they actually fun to play?</figcaption>
+						</figure>
+
+						<p>
+							There's no denying that these games are impressive and that many of them provide a remarkable experience for the gamers that enjoy them, 
+							but when it comes to a game being fun or memorable, more significant factors may be at work than "realism" and "eye candy".
+						</p>
+
+						<figure class="my-image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/220px-Typical_Tetris_Game.svg.png" 
+								alt="A screenshot of a version of Tetris"
+								title="One of the many variants of Tetris that exist">
+							<figcaption>The incredibly popular game 'Tetris' may not count as a retro-game if you're playing a modern variant but the core gameplay remains unchanged since 1984</figcaption>
+						</figure>
+
+						<p>
+							Of course one might just assume that retro-gaming is purely about nostalgia and that's definitely a factor, but the appeal of playing 'retro' titles must go beyond that.
+							Some games are great to play simply because of the rewarding gameplay itself, or because of the engaging story. Sometimes the simplest games are the most enjoyable.
+						</p>
+
+						<figure class="my-image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/en/1/13/Asteroi1.png"
+								alt="Screenshot of Atari's 'Asteroids' from 1979"
+								title="Atari's 'Asteroids' from 1979">
+							<figcaption>Could "Asteroids" be a 'perfect game' like James Halliday states in the 2018 sci-fi film "Ready Player One" ?</figcaption>
+						</figure>
+
+						<p>
+							For older games, the most common way of accessing these titles is through <a href="emulation.html">emulation</a>, 
+							although more committed retro-gamers may seek out original hardware.
+						</p>
+
+						<p>
+							Not all 'retro' games are old though. There are many modern titles, especially from "indie" developers, that intentionally make use of a 'retro' aesthetic, 
+							for example by using low-resolution 'pixel art', a limited colour palette, or simple sound effects that evoke the experience of a much older gaming title. 
+							These games vary from having a purely 'retro' feel to having a mix of both modern and 'retro' elements,
+							often taking advantage of the greater graphical capabilties on modern systems.
+							Many of them also fall into the <a href="https://en.wikipedia.org/wiki/Metroidvania" target="_blank">"Metroidvania"</a> genre
+							(so called because they take elements from the classic 80s games 'Metroid' and 'Castlevania').
+						</p>
+
+						<figure class="my-image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/en/0/06/Cave_Story_gameplay.gif"
+								alt="Screenshot of the game Cave Story (aka Dōkutsu Monogatari) by Daisuke 'Pixel' Amaya, 2004">
+							<figcaption>The pixel-art game "Cave Story" (aka "Dōkutsu Monogatari") was released in 2004 to widespread acclaim</figcaption>
+						</figure>
+
+						<figure class="my-image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/en/3/3f/Axiom_Verge_PlayStation_4_pre-release_gameplay_screenshot.png"
+								alt="Screenshot of the game Axiom Verge, developed by Thomas Happ, 2015">
+							<figcaption>"Axiom Verge", another retro 'Metroidvania' game, from developer Thomas Happ, 2015 </figcaption>
+						</figure>
+
+						<p>
+							Finally, the culture of retro-gaming extends beyond websites and online forums to exhibitions, museums, and even a printed magazine!
+						</p>
+
+						<figure class="my-image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Retro_Gamer_188_cover.jpg"
+								alt="An edition of 'Retro Gamer' magazine">
+							<figcaption>"Retro Gamer" magazine </figcaption>
+						</figure>
+
+					</div>
+				</main>
+			</div>
+
+			<!-- RIGHT PANEL -->
+			<div class="col-md-3 col-lg-3">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>External Resources</h2>
+					</div>
+					<div class="my-panel-contents">
+						<div class="card my-card">
+							<a class="nav-link" href="https://en.wikipedia.org/wiki/Retrogaming" target="_blank">
+								<h5 class="card-title text-center">Wikipedia Retrogaming Article</h5>
+								<div class="my-bg-black">
+									<img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg"
+										class="card-img-top width-60pc"
+										alt="Link to the Wikipedia Retrogaming article">
+								</div>
+								<div class="card-body">
+									<p class="card-text">A short article covering the methods involed in accessing old games and retro-gaming culture</p>
+								</div>
+							</a>
+						</div>
+						<div class="card my-card">
+							<a class="nav-link" href="https://www.retrogamer.net/" target="_blank">
+								<h5 class="card-title text-center">Retro Gamer Website</h5>
+								<div class="my-bg-white">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Retro_Gamer_Black_logo.svg"
+										class="card-img-top width-60pc"
+										alt="Link to the Retro Gamer website">
+								</div>
+								<div class="card-body">
+									<p class="card-text">The website for the British Retro Gamer magazine</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<footer class="my-footer">
+		Background courtesy of <a href="https://www.pexels.com/@felixmittermeier/" target="_blank">Felix Mittermeier</a>
+		<hr>
+		<div class="d-flex justify-content-between">
+			<span>Site Design Copyright &#169; James Percival 2023</span>
+			<span class="text-end">Last Updated 2023-01-20</span>
+		</div>
+	</footer>
+</body>
+</html>
