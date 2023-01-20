@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>James' Retro-Computing Site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- HEADER / NAVBAR -->
+	<header>
+		<div class="d-flex justify-content-center align-items-center my-header">
+			<h1>My Retro-Computing and Emulation Site</h1>
+		</div>
+
+		<nav class="navbar navbar-expand-sm navbar-dark my-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="computing_history.html">Computing History</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="retro_gaming.html">Retro Gaming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="emulation.html">Emulation</a>
+						</li>
+					</ul>	
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- BODY CONTENT -->
+	<div class="my-container">
+		<div class="row g-3 mt-2 justify-content-between">
+			<!-- LEFT PANEL -->
+			<div class="col-md-3 col-lg-3 d-none d-md-block">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>Site Menu</h2>
+					</div>
+					<div class="my-panel-contents">
+						<!-- HISTORICAL COMPUTING -->
+						<div class="card my-card">
+							<a class="nav-link" href="computing_history.html">
+								<h5 class="card-title text-center">Computing History</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Cray_1_IMG_9126.jpg/1280px-Cray_1_IMG_9126.jpg"
+									class="card-img-top"
+									alt="Cray-1 SuperComputer (1976)"
+									title="Cray-1 SuperComputer (1976)">
+								<div class="card-body">
+									<p class="card-text">Learn about some historical computers and how the industry and the technology evolved over the past five decades</p>
+								</div>
+							</a>
+						</div>
+						<!-- RETRO GAMING -->
+						<div class="card my-card">
+							<a class="nav-link" href="retro_gaming.html">
+								<h5 class="card-title text-center">Retro Gaming</h5>
+								<img src="https://upload.wikimedia.org/wikipedia/en/5/59/Pac-man.png"
+									class="card-img-top"
+									alt="Screenshot of Pacman (Namco, 1980)"
+									title="Pacman (Namco, 1980)">
+								<div class="card-body">
+									<p class="card-text">Put down the latest cutting edge software titles for a moment and delve into the realm of retro gaming!</p>
+								</div>
+							</a>
+						</div>
+						<!-- SYSTEM EMULATION -->
+						<div class="card my-card">
+							<a class="nav-link" href="emulation.html">
+								<h5 class="card-title text-center">Emulation</h5>
+								<img src="https://images.unsplash.com/photo-1569721983011-6c8d6732d384?ixlib=rb-4.0.3&dl=muha-ajjan-uOOBQhUs1AA-unsplash.jpg&w=640&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+									class="card-img-top"
+									alt="Android tablet emulating a Playstation Portable (PSP)"
+									title="Android tablet emulating a Playstation Portable (PSP)">
+								<div class="card-body">
+									<p class="card-text">Find out what's possible using system emulators, and a bit about how they trick software into thinking it's running on completely different hardware</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+
+			<!-- MID PANEL -->
+			<div class="col-md-6">
+				<main class="my-panel">
+					<div class="my-title">
+						<h2>- Computing History -</h2>
+					</div>
+					<div class="my-panel-contents">
+						<p>
+							Computers go back a long way!
+							How long exactly depends on your definition, 
+							but the first general-purpose, fully electronic, digital computer that could store and modify a program in main memory is generally accepted to be
+							the <a href="https://en.wikipedia.org/wiki/Manchester_Baby" target="_blank">Manchester Baby</a>, built in 1948. You probably wouldn't want this machine in your office
+							(unless it was a very big office!) and it was exceedingly slow by today's standards but it was nevertheless an important milestone in the history of computing.
+						</p>
+						
+						<figure class="my-image-container">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SSEM_Replica.jpg"
+								class="width-full"
+								alt="Photo of the 'Manchester Baby' replica at the Manchester Museum of Science and Industry">
+							<figcaption>The 'Manchester Baby' replica at the Museum of Science and Industry</figcaption>
+						</figure>
+
+						<p>
+							Fast-forward to 1971 and we have the first commercially produced CPU, the Intel 4004, followed by the better-known Intel 8088 in 1979
+							which powered the first IBM-compatible PCs. If you're using a computer today, there's a very good chance that at its heart is a CPU that comes from the 8088 lineage.
+						</p>
+
+						<figure class="my-image-container my-bg-gray">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ibm_pc_5150.jpg/1024px-Ibm_pc_5150.jpg"
+								class="width-60pc filter-darker"
+								alt="Photo of an early IBM PC">
+							<figcaption>
+								IBM Personal Computer model 5150
+								(Ruben de Rijcke, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">CC BY-SA</a>)
+							</figcaption>
+						</figure>
+
+						<p>
+							My own interest mostly lies in the home systems of the 80s and early 90s.
+							This period represented an amazing growth in the accessibilty of computing to the general public, 
+							although early computers of this era were not necessarily the most user-friendly of devices.
+						</p>
+						<p>
+							There existed a number of contenders in the home computer market. 
+							In the early to late 80s, the <a href="https://en.wikipedia.org/wiki/Commodore_64" target="_blank">Commodore 64</a>
+							was very popular internationally (except in Japan). This machine was quite impressive for its time, 
+							with custom graphics and audio hardware that also made it an effective gaming machine.
+						</p>
+
+						<figure class="my-image-container my-bg-gray">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Commodore-64-Computer-FL.jpg/1920px-Commodore-64-Computer-FL.jpg"
+								class="width-60pc filter-darker"
+								alt="Photo of a Commodore 64 computer, introduced in 1982">
+							<figcaption>
+								 The Commodore 64 ("C64") computer, introduced in 1982 by Commodore International
+							</figcaption>
+						</figure>
+
+						<p>
+							Another system released the same year was the cheaper <a href="https://en.wikipedia.org/wiki/ZX_Spectrum" target="_blank">ZX Spectrum</a>. 
+							This computer went on to become Britain's best-selling microcomputer and earned its creator, Clive Sinclair, a knighthood for his contributions to British industry.
+							While not as capable as the Commodore 64, and no-where near as popular internationally, this was neverthless an era-defining home-computer for those in the UK.
+						</p>
+
+						<figure class="my-image-container my-bg-gray">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ZXSpectrum48k.jpg/1280px-ZXSpectrum48k.jpg"
+								class="width-60pc filter-darker"
+								alt="Photo of a 48K ZX Spectrum computer, introduced in 1982">
+							<figcaption>
+								 A 48K ZX Spectrum computer, introduced in 1982 by Sinclair Research
+							</figcaption>
+						</figure>
+
+						<p>
+							In the UK, there was also a third home-computer released at roughly the same time as the C64 and Spectrum.
+							This was Acorn Computers' "BBC Micro" range, so-named because Acorn had won a contract with the British Broadcasting Corporation to provide a 
+							system to accompany their <a href="https://clp.bbcrewind.co.uk/" target="_blank">Computer Literacy Project</a>.
+							While more expensive than the ZX Spectrum, this was a very versatile machine, and found its way into many schools.
+						</p>
+
+						<figure class="my-image-container my-bg-gray">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/BBC_Micro_Front_Restored.jpg"
+								class="width-60pc filter-darker"
+								alt="Photo of an Acorn BBC Microcomputer model A/B, introduced in 1981">
+							<figcaption>
+								A BBC Microcomputer model A/B, introduced in 1981 by Acorn Computers
+							</figcaption>
+						</figure>
+	
+						<p>
+							Later on, between the mid-80s and the early 90s, a new generation of systems became available - the "16/32-bit" computers.
+							These could carry out calculations at a much faster rate and in bigger 'chunks' at a time, 
+							resulting in significantly improved capabilities compared to the earlier "8-bit" machines.
+						</p>
+
+						<p>
+							These included the popular <a href="https://en.wikipedia.org/wiki/Amiga" target="_blank">Commodore Amiga</a>, 
+							the <a href="https://en.wikipedia.org/wiki/Atari_ST" target="_blank">Atari ST</a>,
+							the <a href="https://en.wikipedia.org/wiki/Acorn_Archimedes" target="_blank">"Archimedes" range from Acorn Computers</a>,
+							and early models of the <a href="https://en.wikipedia.org/wiki/History_of_the_Macintosh" target="_blank">Apple Macintosh</a>.
+						</p>
+
+						<figure class="my-image-container my-bg-gray">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/1280px-Amiga500_system.jpg"
+								class="width-60pc filter-darker"
+								alt="Photo of an Amiga 500 Computer, introduced in 1987">
+							<figcaption>
+								An Amiga 500 Computer, introduced in 1987 (Bill Bertram, <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank">CC BY-SA</a>) 
+							</figcaption>
+						</figure>
+
+						<figure class="my-image-container my-bg-gray">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Acorn_A3010.jpg"
+								class="width-60pc"
+								alt="Photo of an Acorn A3010 Computer, introduced in 1992">
+							<figcaption>
+								An Acorn A3010 Computer, introduced in 1992 (Scarlett, <a href="https://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC BY-SA</a>) 
+							</figcaption>
+						</figure>
+
+						<p>
+							By the mid-90s, many of these systems were falling out of favour as Intel-based PCs -
+							already dominant in the business sector - took over the home market as well.
+							Nevertheless, these early computers paved the way, and if you own a smartphone or 
+							other mobile device then there's a very good chance that it's powered by an 
+							<a href="https://en.wikipedia.org/wiki/ARM_architecture_family" target="_blank">ARM-based CPU</a>
+							- a distant relative of the microprocessor that Acorn Computers invented for their 32-bit computers all the way back in 1985.
+						</p>
+	
+					</div>
+				</main>
+			</div>
+
+			<!-- RIGHT PANEL -->
+			<div class="col-md-3 col-lg-3">
+				<aside class="my-panel">
+					<div class="my-title">
+						<h2>External Resources</h2>
+					</div>
+					<div class="my-panel-contents">
+						<div class="card my-card">
+							<a class="nav-link" href="https://en.wikipedia.org/wiki/History_of_personal_computers#1977_and_the_emergence_of_the_%22Trinity%22" target="_blank">
+								<h5 class="card-title text-center">Wikipedia PC History Article</h5>
+								<div class="my-bg-black">
+									<img src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg"
+										class="card-img-top width-60pc"
+										alt="Link to the Wikipedia PC History Article, covering 1977-onwards">
+								</div>
+								<div class="card-body">
+									<p class="card-text">Link to a section covering 1977-onwards in the Wikipedia 'History of Personal Computers' article</p>
+								</div>
+							</a>
+						</div>
+						<div class="card my-card">
+							<a class="nav-link" href="http://www.computinghistory.org.uk/" target="_blank">
+								<h5 class="card-title text-center">The Centre for Computing History</h5>
+								<div>
+									<img src="http://www.computinghistory.org.uk/images/new/centre-computing-history.gif"
+										class="card-img-top width-60pc"
+										alt="Link to the website for The Centre for Computing History, in Cambridge, England">
+								</div>
+								<div class="card-body">
+									<p class="card-text">The website for The Centre for Computing History, in Cambridge, England</p>
+								</div>
+							</a>
+						</div>
+						<div class="card my-card">
+							<a class="nav-link" href="https://arstechnica.com/gadgets/2022/09/a-history-of-arm-part-1-building-the-first-chip/" target="_blank">
+								<h5 class="card-title text-center">Ars Technica series on ARM</h5>
+								<div class="my-bg-white">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Ars_Technica_logo_%282016%29.svg"
+										class="card-img-top width-60pc"
+										alt="Link to the Ars Technica series on the history of the ARM CPU, part 1">
+								</div>
+								<div class="card-body">
+									<p class="card-text">First part of the Ars Technica series on the history of the ARM CPU</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+
+<!-- FOOTER -->
+	<footer class="my-footer">
+		Background courtesy of <a href="https://www.pexels.com/@felixmittermeier/" target="_blank">Felix Mittermeier</a>
+		<hr>
+		<div class="d-flex justify-content-between">
+			<span>Site Design Copyright &#169; James Percival 2023</span>
+			<span class="text-end">Last Updated 2023-01-20</span>
+		</div>
+	</footer>
+</body>
+</html>
