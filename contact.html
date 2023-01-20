@@ -112,19 +112,19 @@
 						<form action="contact_confirm_send.html" method="get"> <!-- (just using GET method here because GitHub pages gives code 405 with POST)-->
 							<div class="mb-3">
 								<label for="name" class="form-label">Your name</label>
-								<input class="form-control" id="name" required>
+								<input name="name" class="form-control" id="name" required>
 							</div>
 							<div class="mb-3">
 								<label for="email" class="form-label">Your email address</label>
-								<input type="email" class="form-control" id="email" required>
+								<input name="email" type="email" class="form-control" id="email" required>
 							</div>
 							<div class="mb-3">
 								<label for="subject" class="form-label">Subject</label>
-								<input class="form-control" id="subject" required>
+								<input name="subject" class="form-control" id="subject" required>
 							</div>
 							<div class="mb-3">
 								<label for="message" class="form-label">Message</label>
-								<textarea class="form-control" id="message" rows="5" required></textarea>
+								<textarea name="message" class="form-control" id="message" rows="5" required></textarea>
 							</div>
 
 							<div class="text-center">
